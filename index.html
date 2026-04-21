@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imersão Diária | Palavra Profética</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #1a237e; /* Azul profundo baseado na sua imagem */
+            --accent-color: #f5f5f7;
+            --text-color: #2c3e50;
+            --bg-color: #ffffff;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header {
+            padding: 60px 0;
+            background: linear-gradient(135deg, #1a237e 0%, #3949ab 100%);
+            color: white;
+            border-radius: 0 0 50px 50px;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+
+        .subtitle {
+            font-size: 1.2rem;
+            font-weight: 300;
+            opacity: 0.9;
+        }
+
+        .content-section {
+            margin: 50px 0;
+        }
+
+        .card {
+            background: var(--accent-color);
+            padding: 30px;
+            border-radius: 20px;
+            margin-bottom: 30px;
+            border: 1px solid #e0e0e0;
+        }
+
+        .feature-list {
+            list-style: none;
+            padding: 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .feature-item {
+            background: white;
+            padding: 15px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+        }
+
+        .cta-button {
+            display: inline-block;
+            background-color: #25d366; /* Cor do WhatsApp para familiaridade */
+            color: white;
+            padding: 18px 40px;
+            font-size: 1.2rem;
+            font-weight: 600;
+            text-decoration: none;
+            border-radius: 50px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            box-shadow: 0 10px 20px rgba(37, 211, 102, 0.2);
+        }
+
+        .cta-button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 25px rgba(37, 211, 102, 0.3);
+        }
+        .cta-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 5px 10px rgba(37, 211, 102, 0.2);
+}
+
+        footer {
+            margin-top: 60px;
+            font-size: 0.9rem;
+            color: #7f8c8d;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            .feature-list { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Imersão Diária</h1>
+            <p class="subtitle">Na Palavra Profética</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <section class="content-section">
+            <h2>Receba orientação e oração diretamente no seu celular.</h2>
+            <p>Criamos um espaço de comunhão diária para fortalecer sua caminhada com Deus através de estudos profundos e intercessão.</p>
+            
+            <div class="feature-list">
+                <div class="feature-item">📖 <strong>Mensagens Bíblicas</strong><br>Estudos diários profundos.</div>
+                <div class="feature-item">🎙️ <strong>Áudios Devocionais</strong><br>Uma palavra de fé para o seu dia.</div>
+                <div class="feature-item">🙏 <strong>Intercessão</strong><br>Oramos pelos seus pedidos.</div>
+                <div class="feature-item">📱 <strong>Direto no WhatsApp</strong><br>Praticidade e proximidade.</div>
+            </div>
+
+            <div class="card">
+                <h3>Como funciona?</h3>
+                <p>Ao clicar no botão abaixo, você será redirecionado para um breve formulário. Lá, você poderá deixar seu nome e seu contato de WhatsApp para começar a receber nossa imersão gratuitamente.</p>
+                <br>
+                <a href="https://forms.gle/9nGuev7GtGKLeRqR6" target="_blank" rel="noopener" class="cta-button">Quero Receber as Orações</a>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Projeto Expansão da Vida. Todos os direitos reservados.</p>
+        </footer>
+    </div>
+
+</body>
+</html>
